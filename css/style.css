@@ -3,6 +3,11 @@
   width: 80px;
 }
 
+.card-img-profile {
+  border-radius: 50%;
+  width: 150px;
+}
+
 .container {
   background-color: #eeeeee;
 }
@@ -31,4 +36,27 @@
 .navbar-color {
   background-color: #f7d2d2;
   border-radius: 10px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  margin-top: 20px;
+  color: #504b4b;
+}
+
+h3 {
+  color: #504b4b;
+}
+
+.card {
+  max-width: 400px;
+  min-width: 100px;
+  min-height: 120px;
+  border-radius: 30px;
+}
+
+.card-body {
+  margin-left: 10px;
 }
