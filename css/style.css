@@ -8,6 +8,10 @@
   width: 150px;
 }
 
+.card-contact {
+  max-height: 250px;
+}
+
 .container {
   background-color: #eeeeee;
 }
@@ -46,8 +50,11 @@ h2 {
   color: #504b4b;
 }
 
-h3 {
+h3,
+h4 {
   color: #504b4b;
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
 }
 
 .card {
@@ -59,4 +66,49 @@ h3 {
 
 .card-body {
   margin-left: 10px;
+}
+
+.btn-contacts {
+  color: #504b4b;
+  border-style: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.btn-contact-posts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #504b4b;
+  margin-left: 30px;
+}
+
+.btn-contact-wall {
+  margin-top: 0px;
+  color: rgb(5, 85, 223);
+}
+
+.col-z {
+  position: absolute;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.profileimg-z {
+  border-radius: 50%;
+  width: 80px;
+  z-index: 2;
+  right: 10px;
+  top: 2px;
+}
+
+.card-z {
+  z-index: 1;
+  background-color: white;
+}
+
+.img-ross {
+  max-width: 100%;
+  border-radius: 10%;
+  margin-top: 10px;
 }
