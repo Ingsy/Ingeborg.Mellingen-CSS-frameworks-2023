@@ -48,7 +48,7 @@
           <div class="col-sm-1 col-md-6 col-lg-6">
             <h2>My Profile</h2>
             <div class="row">
-              <div class="col-sm-1 col-md-6 col-lg-6">
+              <div class="col mb-4 mt-4">
                 <div class="card">
                   <img src="/images/David-Schwimmer-Net-worth.jpg" class="card-img-profile" alt="profile-photo">
                   <div class="card-body text-start">
@@ -59,7 +59,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4 col-md-12 col-lg-12 m-4">
+              <div class="col-sm-4 col-md-12 col-lg-12 mt-4">
                   <a class="btn btn-contacts" data-bs-toggle="collapse" href="#Contacts" role="button" aria-expanded="false" aria-controls="Contacts">
                     Contacts
                   </a>
@@ -67,25 +67,85 @@
                     <ul class="list-group text-start">
                       <div class="col-8">
                       <li class="list-group-item">
-                        <div><div class="card-contact">
-                          <h5 class="card-title">Monica Geller</h5>
-                          <img src="/images/Monica.jpg" class="card-img-top" alt="...">
-                          <a href="#" class="btn btn-contact-posts">Posts</a>
-                          
-                          <a href="#" class="btn btn-contact-posts"> Write on Monica`s wall</a>
-                          <div class="card-body">
-                            <div class="mb-2">
-                              <label for="exampleFormControlTextarea1" class="form-label"></label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="write on Monica`s wall..."></textarea>
-                            </div>
-                            <a href="#" class="btn btn-contact-wall">post</a>
+                        <div>
+                          <div class="contact-show">
+                            <a class="btn btn-contacts" data-bs-toggle="collapse" href="#collapseMonica" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Monica Geller
+                            </a>
+                            <img src="/images/Monica.jpg" class="card-img-top text-end" alt="...">
                           </div>
-                        </div></div></li>
-                        
-                      <li class="list-group-item">Chandler Bing</li>
-                      <li class="list-group-item">Rachel Green</li>
-                      <li class="list-group-item">Phoebe Buffet</li>
-                      <li class="list-group-item">Joey Tribbiani</li>
+                          <div class="collapse" id="collapseMonica">
+                            <div class="text-center mb-2">
+                              <a href="#" class="btn btn-contact-posts"> Monica`s post</a>
+                              <label for="writeOnWall" class="form-label"></label>
+                              <textarea class="form-control" id="writeOnWall" rows="2" placeholder="write on Monica`s wall..."></textarea>
+                            </div>
+                          </div>
+                          </div></li>
+                          <li class="list-group-item">
+                            <div>
+                              <div class="contact-show">
+                                <a class="btn btn-contacts" data-bs-toggle="collapse" href="#collapseChandler" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Chandler Bing
+                                </a>
+                                <img src="/images/bing.jpg" class="card-img-top text-end" alt="...">
+                              </div>
+                              <div class="collapse" id="collapseChandler">
+                                <div class="text-center mb-2">
+                                  <a href="#" class="btn btn-contact-posts"> Chandler`s post</a>
+                                  <label for="writeOnWall" class="form-label"></label>
+                                  <textarea class="form-control" id="writeOnWall" rows="2" placeholder="write on Chandler`s wall..."></textarea>
+                                </div>
+                              </div>
+                              </div></li>
+                              <li class="list-group-item">
+                                <div>
+                                  <div class="contact-show">
+                                    <a class="btn btn-contacts" data-bs-toggle="collapse" href="#collapseJoey" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                      Joey Tribbiani
+                                    </a>
+                                    <img src="/images/Matt-LeBlanc.jpg" class="card-img-top text-end" alt="...">
+                                  </div>
+                                  <div class="collapse" id="collapseJoey">
+                                    <div class="text-center mb-2">
+                                      <a href="#" class="btn btn-contact-posts"> Joey`s post</a>
+                                      <label for="writeOnWall" class="form-label"></label>
+                                      <textarea class="form-control" id="writeOnWall" rows="2" placeholder="write on Joey`s wall..."></textarea>
+                                    </div>
+                                  </div>
+                                  </div></li>
+                                  <li class="list-group-item">
+                                    <div>
+                                      <div class="contact-show">
+                                        <a class="btn btn-contacts" data-bs-toggle="collapse" href="#collapseRachel" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                          Rachel Green
+                                        </a>
+                                        <img src="/images/Rachel.jpg" class="card-img-top text-end" alt="...">
+                                      </div>
+                                      <div class="collapse" id="collapseRachel">
+                                        <div class="text-center mb-2">
+                                          <a href="#" class="btn btn-contact-posts"> Rachel`s post</a>
+                                          <label for="writeOnWall" class="form-label"></label>
+                                          <textarea class="form-control" id="writeOnWall" rows="2" placeholder="write on Rachel`s wall..."></textarea>
+                                        </div>
+                                      </div>
+                                      </div></li>
+                                      <li class="list-group-item">
+                                        <div>
+                                          <div class="contact-show">
+                                            <a class="btn btn-contacts" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                              Phoebe Buffet
+                                            </a>
+                                            <img src="/images/phoebe.jpg" class="card-img-top text-end" alt="...">
+                                          </div>
+                                          <div class="collapse" id="collapseExample">
+                                            <div class="text-center mb-2">
+                                              <a href="#" class="btn btn-contact-posts"> Phoebe`s post</a>
+                                              <label for="writeOnWall" class="form-label"></label>
+                                              <textarea class="form-control" id="writeOnWall" rows="2" placeholder="write on Phoebe`s wall..."></textarea>
+                                            </div>
+                                          </div>
+                                          </div></li>
                     </div>
                     </ul>
                   </div>
@@ -125,6 +185,7 @@
               </div>
               <div class="col-sm-1 col-md-6 col-lg-6">
                 <h2>My Posts</h2>
+                <div class="row">
                 <div class="col mb-4 mt-4">
                 <div class="card">
                   <img
@@ -143,7 +204,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col mb-4">
+                <div class="line-3 m-4"></div>
+                <div class="col mb-4 mt-4">
                 <div class="card">
                   <img
                     src="/images/David-Schwimmer-Net-worth.jpg"
@@ -204,7 +266,7 @@
                       </div>
                     </div>
               </div>
-            
+            </div>
             </div>
           </div>
         </div>
