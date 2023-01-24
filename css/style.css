@@ -1,6 +1,7 @@
 .card-img-top {
   border-radius: 50%;
   width: 80px;
+  margin-top: 8px;
 }
 
 .card-img-profile {
@@ -53,8 +54,21 @@ h3 {
   color: #797272;
 }
 
+h4 {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.pName {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
 .card {
-  min-width: 100px;
+  min-width: 300px;
   min-height: 120px;
   border-radius: 30px;
   border: none;
@@ -114,4 +128,10 @@ textarea {
   background-color: #eeeeee;
   font-size: 16px;
   resize: none;
+}
+
+.fa {
+  color: #707070;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
