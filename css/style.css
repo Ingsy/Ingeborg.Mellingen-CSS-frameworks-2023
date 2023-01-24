@@ -9,6 +9,12 @@
   width: 120px;
 }
 
+.card-img {
+  max-width: 250px !important;
+  max-height: 200px;
+  margin: 0;
+}
+
 .card-contact {
   max-height: 250px;
 }
