@@ -4,6 +4,10 @@
   margin-top: 8px;
 }
 
+.container {
+  background-color: $background-color;
+}
+
 .card-img-profile {
   border-radius: $br-50;
   width: $w-120px;
