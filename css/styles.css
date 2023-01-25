@@ -86,9 +86,14 @@ h4 {
   color: #f59f9f;
   font-size: 18px;
 }
+.btn-post:hover {
+  background-color: #f7d2d2;
+  border: none;
+  border-radius: 20px;
+}
 
 .btn-contacts {
-  color: #504b4b;
+  color: #3b3636;
   font-size: 20px;
   border: hidden;
 }
