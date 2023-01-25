@@ -1,7 +1,28 @@
+.card-img-top {
+  border-radius: $br-50;
+  width: $w-80px;
+  margin-top: 8px;
+}
+
+.card-img-profile {
+  border-radius: $br-50;
+  width: $w-120px;
+}
+
+.card-img {
+  max-width: $maw-250px !important;
+  max-height: $mah-200px;
+  margin: $marg-0;
+}
+
+.card-contact {
+  max-height: $mah-250px;
+}
+
 .card {
-  min-width: 300px;
-  min-height: 120px;
-  border-radius: 30px;
+  min-width: $miw-300px;
+  min-height: $mih-120px;
+  border-radius: $br-30px;
   border: none;
   margin-left: 50px;
   margin-right: 50px;
@@ -23,8 +44,8 @@ body {
 }
 
 .col-8 {
-  border-radius: 30px;
-  min-width: 350px;
+  border-radius: $br-30px;
+  min-width: $miw-350px;
 }
 
 textarea {
