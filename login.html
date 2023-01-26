@@ -44,8 +44,8 @@
         </div>
       </nav>
       <div class="container-fluid">
-        <div class="row justify-item-center">
-            <div class="col-sm-12 col-md-12 col-lg-12 m-4">
+        <div class="row ">
+            <div class="col-12 m-4">
               <form class="needs-validation" novalidate>
               <div class="mb-4">
                 <label for="Username" class="form-label">Username (Email address)</label>
@@ -60,14 +60,33 @@
               </div>
               <button type="submit" class="btn btn-secondary">Submit</button>
             </form></div>
-           
-          
+            <div class="col m-">
+            <a class="btn btn-contact-posts mb-4" data-bs-toggle="collapse" href="#NewUser" role="button" aria-expanded="false" aria-controls="NewUser">
+              create a new user
+            </a>
+          <div class="collapse" id="NewUser">
+            <form class="needs-validation" novalidate>
+              <div class="mb-4">
+                <label for="Username" class="form-label">Username (Email address)</label>
+                <input type="email" class="form-control" id="Username" value="" required aria-describedby="Username">
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="Password1" class="form-label">Choose a Password (8 digits)</label>
+                <input type="password" class="form-control" id="Password1">
+              </div>
+              <button type="submit" class="btn btn-contact-posts"></button>
+            </form>
+          </div>
+        </div>
         </div>
       </div>
-    <footer>
+    <footer class="m-4">
       <div class="container">
-        <div class="row sm-12 mt-4">
-          <div class="col-3">Privacy</div>
+        <div class="row sm-12">
+          <div class="col-2">Privacy</div>
           <div class="col-3">Advertisement</div>
           <div class="col-3">Information cookies</div>
           <div class="col-3">BeFriendMe@2023</div>
