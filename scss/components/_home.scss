@@ -1,3 +1,9 @@
+.marg {
+  margin-top: $m-8;
+  margin-left: $m-8;
+  margin-right: $m-8;
+}
+
 .card-img-top {
   border-radius: $br-50;
   width: $w-80px;
@@ -66,9 +72,4 @@ textarea {
   color: $navbrand;
   font-size: 20px;
   margin-bottom: 10px;
-}
-
-.line-2 {
-  border-top: 1px solid;
-  color: $black;
 }
