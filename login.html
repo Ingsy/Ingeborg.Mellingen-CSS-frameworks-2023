@@ -46,41 +46,51 @@
       <div class="container-fluid">
         <div class="row ">
             <div class="col-12 m-4">
-              <form class="needs-validation" novalidate>
-              <div class="mb-4">
-                <label for="Username" class="form-label">Username (Email address)</label>
-                <input type="email" class="form-control" id="Username" value="" required aria-describedby="Username">
-                <div class="valid-feedback">
-                  Looks good!
+              <form id="loginForm">
+                <div class="mb-4">
+                  <label for="Username" class="form-label">E-mail</label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    pattern="^[\w\-.]+@(stud.)?noroff.no$"
+                    title="Only @(stud.)noroff.no domains are allowed to register."
+                    class="form-control"
+                    id="Username"
+                  />
                 </div>
-              </div>
-              <div class="mb-4">
-                <label for="Password1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="Password1">
-                <div class="valid-feedback">
-                  woohoo! 
+                <div class="mb-4">
+                  <label for="Password1" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    class="form-control"
+                    id="Password1"
+                  />
                 </div>
-              </div>
-              <a class="btn btn-secondary" href="/profile.html">Submit</a>
-            </form></div>
+                <button class="btn btn-secondary" href="/profile.html">
+                  Login
+                </button>
+              </form></div>
             <div class="col m-">
-            <a class="btn btn-contact-posts mb-4" data-bs-toggle="collapse" href="#NewUser" role="button" aria-expanded="false" aria-controls="NewUser">
+            <a class="btn btn-contact-posts mb-4" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="NewUser">
               create new account
             </a>
           <div class="collapse" id="NewUser">
-            <form class="needs-validation" novalidate>
+            <form id="registerForm">
               <div class="mb-4">
-                <label for="Username" class="form-label">Username (Email address)</label>
-                <input type="email" class="form-control" id="Username" value="" required aria-describedby="Username">
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
+                <label for="" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required pattern="^[\w]+$" title="user name must only contain lower case and upper case letter, numbers and underscore (_) Example: A_user2023">
               </div>
               <div class="mb-4">
-                <label for="createpassword" class="form-label">create a Password (8 digits)</label>
-                <input type="password" class="form-control" id="createpassword">
+                <label for="" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required pattern="^[\w\-.]+@(stud.)?noroff.no$" title="Only @(stud.)noroff.no domains are allowed to register." >
               </div>
-              <button type="submit" class="btn btn-contact-posts">create</button>
+              <div class="mb-4">
+                <label for="" class="form-label">Create password</label>
+                <input type="password" id="password" name="password" class="form-control" required minlength="8">
+              </div>
+              <button class="btn btn-secondary mb-4" href="#">register</button>
             </form>
           </div>
         </div>
